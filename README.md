@@ -417,3 +417,10 @@ BTN_X
 BTN_Y
 BTN_Z
 ```
+
+
+irsend:
+```
+irsend SEND_ONCE benq KEY_POWER
+irsend SEND_ONCE himedia KEY_POWER
+```
