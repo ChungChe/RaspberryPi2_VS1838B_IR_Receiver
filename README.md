@@ -1,8 +1,6 @@
-Please refer for pre-defined remote controller:
+#Raspberry Pi 2 IR Receiver using VS1838B
 
-http://lirc.sourceforge.net/remotes/
-
-Receiver:
+IR Receiver:
 
 http://arduino-info.wikispaces.com/IR-RemoteControl
 
@@ -10,10 +8,18 @@ Problem to solve "No input on Reasberry Pi 2"
 
 http://raspberrypi.stackexchange.com/questions/28510/lirc-raspberry-pi-2-no-input
 
+Please refer for pre-defined remote controller:
+
+http://lirc.sourceforge.net/remotes/
+
+
 Copy the following files from my Raspberry Pi 2
+
 	/boot/config.txt
+	
 	/etc/lirc/hardware.conf
 
+KEYS defined in irrecord:
 ```
 KEY_0
 KEY_102ND
