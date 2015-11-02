@@ -424,3 +424,9 @@ irsend:
 irsend SEND_ONCE benq KEY_POWER
 irsend SEND_ONCE himedia KEY_POWER
 ```
+
+update node.js
+```
+curl -sL https://deb.nodesource.com/setup_0.12 | sudo bash -
+sudo apt-get install -y build-essential python-dev python-rpi.gpio nodejs
+```
